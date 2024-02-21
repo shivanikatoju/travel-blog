@@ -40,18 +40,17 @@
     </section>
 
     <!-- hero section -->
-    <section>
-      <div class="herosec">
-        <video id="myVideo" autoplay muted loop width="100%">
-          <source src="./assets/beaches/beach1.MP4" type="video/MP4" />
-        </video>
-        <div class="content">
-          <p>Goa</p>
-          <hr />
-          <p>India's Version of Paradise</p>
-        </div>
-      </div>
-    </section>
+    <div class="herosec">
+      <video id="myVideo" autoplay muted loop width="100%">
+        <source src="./assets/hero/hero.MOV" type="video/MP4" />
+      </video>
+    </div>
+
+    <div class="content">
+      <p>Goa</p>
+      <hr />
+      <p>India's Version of Paradise</p>
+    </div>
 
     <!-- main section -->
     <section class="mainsec">
@@ -93,7 +92,7 @@
         <div class="cardsdiv">
           <div class="card">
             <img src="./assets/resorts/susegad.PNG" alt="susegad" />
-            <h4>Susegad</h4>
+            <h4>Susegad Suites</h4>
           </div>
           <div class="card">
             <img src="./assets/resorts/whoopers.PNG" alt="whoopers Boutique" />
@@ -112,33 +111,43 @@
       </div>
 
       <!-- restaurants -->
+      <div class="beach container">
+        <div class="headings">
+          <i class="fa-solid fa-utensils"></i>
+          <h2>Restaurants</h2>
+        </div>
+        <hr />
+        <div class="cardsdiv">
+          <div class="card">
+            <img src="./assets/restaurants/artjuna.PNG" alt="artjuna" />
+            <h4>Artjuna</h4>
+          </div>
+          <div class="card">
+            <img src="./assets/restaurants/jazz.PNG" alt="jazz bistro" />
+            <h4>Jazz Bistro</h4>
+          </div>
+          <div class="card">
+            <img src="./assets/restaurants/baba.PNG" alt="baba au rhum" />
+            <h4>Baba Au Rhum</h4>
+          </div>
+          <span class="list">
+            <a href="./Restaurants.html"
+              ><i class="fa-solid fa-angles-right"></i
+            ></a>
+          </span>
+        </div>
+      </div>
     </section>
-    <div class="beach container">
+
+    <!-- About me -->
+    <section class="container">
       <div class="headings">
-        <i class="fa-solid fa-utensils"></i>
-        <h2>Restaurants</h2>
+        <i class="fa-regular fa-face-laugh-beam"></i>
+        <h2>About Me</h2>
       </div>
       <hr />
-      <div class="cardsdiv">
-        <div class="card">
-          <img src="./assets/restaurants/artjuna.PNG" alt="artjuna" />
-          <h4>Artjuna</h4>
-        </div>
-        <div class="card">
-          <img src="./assets/restaurants/jazz.PNG" alt="jazz bistro" />
-          <h4>Jazz Bistro</h4>
-        </div>
-        <div class="card">
-          <img src="./assets/restaurants/baba.PNG" alt="baba au rhum" />
-          <h4>Baba Au Rhum</h4>
-        </div>
-        <span class="list">
-          <a href="./Restaurants.html"
-            ><i class="fa-solid fa-angles-right"></i
-          ></a>
-        </span>
-      </div>
-    </div>
+      <div></div>
+    </section>
 
     <!-- subscription -->
     <section class="container">
@@ -147,21 +156,39 @@
           <i class="fa-solid fa-heart"></i>
           <h2>Subscribe to receive the latest articles!</h2>
         </div>
+        <hr />
         <form action="" class="subs">
           <input type="text" placeholder="Your name" />
           <input type="text" placeholder="abc@gmail.com" />
-          <input type="button" value="submit" style="cursor: pointer" />
+          <button title="hover">Submit</button>
         </form>
       </div>
     </section>
 
     <!-- footer -->
-    <footer class="container">
-      <div class="headings">
-        <i class="fa-solid fa-hashtag"></i>
-        <h2>Follow me</h2>
+    <footer>
+      <div class="heading">
+        <i class="fa-solid fa-hashtag" style="margin-bottom: 18px"></i>
+        <h2 style="margin-top: 0">Follow me</h2>
       </div>
+      <hr />
       <span class="follow">
+        <div>
+          <a
+            href="https://www.linkedin.com/in/shivani-katoju/"
+            class="li"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+            <h4 class="linkedin">LinkedIn</h4>
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/shivanikatoju" class="gh" target="_blank">
+            <i class="fa-brands fa-github"></i>
+            <h4 class="github">GitHub</h4>
+          </a>
+        </div>
         <div>
           <a
             href="https://www.youtube.com/@AuStralia_muchatlu"
