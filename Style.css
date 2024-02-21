@@ -7,7 +7,6 @@ body {
   background: whitesmoke;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   overflow-x: hidden;
-  position: absolute;
 }
 
 .container {
@@ -76,14 +75,9 @@ header img {
 
 /* hero section */
 
-/* .herosec {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  background-color: rgba(192, 192, 192, 0.5);
-} */
+.herosec {
+  position: relative;
+}
 
 /* #myVideo {
   position: relative;
@@ -99,12 +93,12 @@ header img {
   align-items: center;
 
   position: absolute;
-  top: 33vh;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, -50%);
 
   width: 80%;
-  font-size: 80px;
+  font-size: 35px;
   background: rgba(0, 0, 0, 0.235);
   color: white;
   padding: 80px;
@@ -298,6 +292,11 @@ footer {
 
 /* cards (0-860)*/
 @media screen and (max-width: 860px) {
+  .content {
+    font-size: 23px;
+    padding: 20px;
+  }
+
   .cardsdiv {
     display: flex;
     flex-direction: column;
@@ -349,6 +348,11 @@ footer {
 
 /* header */
 @media screen and (max-width: 740px) {
+  .content {
+    font-size: 13px;
+    padding: 18px;
+  }
+
   header a {
     display: flex;
     align-items: center;
